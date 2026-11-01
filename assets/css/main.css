@@ -1,1 +1,307 @@
+body {
+    margin: 0px;
+    background-color: #d1e0d7;
+}
 
+.navbar{
+  background-color: #004E41;
+  width: 100%
+}
+
+.searchbar{
+  background-color: #004E41;
+  width: 100%
+}
+
+.centerdiv{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+.titlebar {
+    background-color: #004E41;
+    width: 100%
+}
+
+
+
+.content {
+    background-color: #d1e0d7;
+    width: 90%;
+    min-height: 250px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contentselect {
+    background-color: #d1e0d7;
+    width: 90%;
+    min-height: 250px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.content-container {
+    width: 100%;
+    min-height: 250px;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+.info-container {
+  width: 100%;
+  display: inline-block;
+  padding-left: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+
+/* SMART PHONE TABLET SCREEN CSS*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1199px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .title {
+      color: white;
+      font-size: 130%;
+      font-style: normal;
+      margin: auto;
+      width: 80%;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .footer {
+        color: white;
+        font-size: 100%;
+        font-style: normal;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+      }
+
+  .info-box {
+      background-color: white;
+      display: inline-block;
+      min-height: 150px;
+      background: #fff;
+      width: 90%;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+      border-radius: 2px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      position: relative;
+  }
+
+  .icon {
+    height: 150px;
+    width: 150px;
+  }
+
+  .info-box-text {
+      font-size: 50px;
+      font-weight: bold;
+      text-transform: inherit;
+      color: #004E41;
+      letter-spacing: 1px;
+      text-wrap: normal;
+      overflow: hidden;
+  }
+
+  .info-box-subtext {
+      font-size: 35px;
+      display: block;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+  }
+
+  .infobox-icon {
+      background-color: white;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 2px;
+      display: block;
+      float: left;
+      height: 150px;
+      width: 150px;
+      text-align: center;
+      font-size: 45px;
+      line-height: 90px;
+      background: rgba(0,0,0,0.2);
+  }
+
+  .info-box-content {
+      background-color: white;
+      height: 150px;
+      display: table-cell;
+      vertical-align: middle;
+      overflow: hidden;
+      padding-left: 5px;
+  }
+
+  .othercust {
+    font-size: 400%;
+  }
+
+  .submitbox {
+    width: 20%;
+    font-size: 40px;
+    height: 100px;
+  }
+
+  .selectbox {
+    width: 50%;
+    font-size: 40px;
+    height: 100px;
+  }
+
+  .searchbox {
+    width: 40%;
+    font-size: 25px;
+    height: 50px;
+  }
+
+  .submitsearch {
+    width: 15%;
+    font-size: 25px;
+    height: 50px;
+  }
+
+}
+
+/* LAPTOP SCREEN CSS*/
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 3000px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .title {
+      color: white;
+      font-size: 200%;
+      font-style: normal;
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #004E41;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+
+  .info-box {
+      background-color: white;
+      display: inline-block;
+      min-height: 90px;
+      background: #fff;
+      width: 30%;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+      border-radius: 2px;
+      margin-bottom: 0px;
+      margin-right: 5px;
+      position: relative;
+  }
+
+  .icon {
+    height: 90px;
+    width: 90px;
+  }
+
+  .info-box:hover *{
+    background-color: #E7EAF6;
+  }
+
+
+
+  .info-box-text {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: inherit;
+      color: #004E41;
+      letter-spacing: 1px;
+      text-wrap: normal;
+      overflow: hidden;
+  }
+
+  .info-box-subtext {
+      font-size: 15px;
+      display: block;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+  }
+
+  .infobox-icon {
+      background-color: white;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 2px;
+      display: block;
+      float: left;
+      height: 90px;
+      width: 90px;
+      text-align: center;
+      font-size: 45px;
+      line-height: 90px;
+      background: rgba(0,0,0,0.2);
+  }
+
+  .info-box-content {
+      background-color: inherit;
+      height: 90px;
+      display: table-cell;
+      height: 89px;
+      vertical-align: middle;
+      overflow: hidden;
+      padding-left: 5px;
+  }
+
+  .othercust {
+    font-size: 200%;
+  }
+
+  .searchbox{
+    width: 30%;
+    font-size: 17px;
+    height: 40px;
+  }
+
+  .submitsearch{
+    width: 10%;
+    font-size: 17px;
+    height: 40px;
+  }
+
+  .submitbox{
+    width: 10%;
+    font-size: 20px;
+    height: 50px;
+  }
+
+  .selectbox{
+    width: 25%;
+    font-size: 20px;
+    height: 50px;
+  }
+}
