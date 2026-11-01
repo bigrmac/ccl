@@ -104,7 +104,7 @@
 <?php #Script 2.2 - handleform.php
 //ini_set('display_errors', 'on'); // ini setting for turning on errors
 //header("content-type: text/xml");
-require '../assets/login.php';
+require 'login.php';
 
 $branch = $_REQUEST['branch'];
 //$pulldate=$_REQUEST['date'];
