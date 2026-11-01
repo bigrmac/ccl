@@ -1,0 +1,65 @@
+/*
+Headers and Footers Style
+
+*/
+		.ui-panel-inner{		/*remove extra padding from panel corners.*/
+				padding:0px;				
+			}
+			
+		.ui-icon-myicon:after {
+			background-image: url("../images/16_feedback.png");
+		}
+		
+		.ui-icon-mysetting:after {
+			background-image: url("../images/bars-white.png");
+		}
+					
+		
+		.ui-header .ui-btn, .ui-header .ui-icon, .ui-header .ui-btn-inner {
+			width: 28px;
+			height: 28px;
+			margin-top: 13px !important;
+			margin-right: 8px;
+		}
+		.ui-header .ui-btn-inner .ui-icon{
+			margin: 0px;
+			border-radius: 1;
+		}
+		.ui-header {
+			height: 64px;
+		}
+		
+		.ui-header, .ui-footer {
+			border-width: 0;
+			border-style: none;			
+		}
+		
+		#spnFooterText{
+			line-height:3em;
+		}
+		#topheader {				
+				height: 64px;
+				background: url("../images/Green-Header-Bar.png");
+		}
+		
+		#topheader1 {				
+				margin-top: 24px;
+				margin-bottom: 24px;
+				/*margin-left:48px;
+				Margin-right:48px;*/
+				border:0px;
+				height:85px;
+		}
+				
+		#footer1 
+		{	
+			height: 47px;							
+			background: #58595B;
+			font-family: Arial, Helvetica, sans-serif;
+			color:#B3B3B3;
+			text-align: center;
+			font-size: 14px;
+			text-shadow: none;			
+			vertical-align:middle;
+			
+		}

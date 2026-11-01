@@ -1,0 +1,36 @@
+@media screen and (min-width:30em) {
+			.ui-content {
+				margin-left:2%;
+				margin-right:2%;
+				
+			}
+			.ui-header
+			{
+				margin-left:3%;
+				margin-right:3%;
+				background: #fff;
+			}
+			#footer1
+			{
+				margin-left:3%;
+				margin-right:3%;
+				width: 94%;
+				
+			}
+			#topheader
+			{
+				visibility:hidden;
+				display:none;
+			}
+			#topheader1
+			{
+				visibility:visible;
+				display:block;				
+			}
+			
+			#dvHeadLine
+			{
+				margin-left:3% !important;
+				margin-right:3% !important;
+			}
+		}

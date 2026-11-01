@@ -1,0 +1,36 @@
+@media screen and (min-width:48em) {
+			.ui-content {
+				margin-left:8%;
+				margin-right:8%;
+				
+			}
+			.ui-header
+			{
+				margin-left:8%;
+				margin-right:8%;
+				background: #fff;
+			}
+			#footer1
+			{
+				margin-left:8%;
+				margin-right:8%;
+				width: 84%;
+				
+			}
+			#topheader
+			{
+				visibility:hidden;
+				display:none;
+			}
+			#topheader1
+			{
+				visibility:visible;
+				display:block;				
+			}
+			
+			#dvHeadLine
+			{
+				margin-left:8% !important;
+				margin-right:8% !important;
+			}
+		}
