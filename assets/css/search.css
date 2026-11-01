@@ -1,0 +1,100 @@
+.navbar {
+    background-color: #004E41;
+    width: 100%
+}
+
+.searchbar {
+    background-color: #004E41;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.centerdiv{
+  margin: auto;
+  width: 80%;
+  padding: 5px;
+  text-align: center;
+}
+.titlebar {
+    background-color: #004E41;
+    width: 100%
+}
+
+.title {
+  color: white;
+  font-size: 100%;
+  font-style: normal;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+    color: white;
+    font-size: 100%;
+    font-style: normal;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .validationlabel{
+    font-family: Arial, Helvetica, sans-serif;
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+    font-size:20px;
+  }
+
+  #btnCall{
+    font-size:.65em;
+  }
+
+  .ui-table td {
+    font-size: .70em;
+  }
+
+  /*Set the font size of column toggel button*/
+  a[href="#phone-table-popup"] {
+    font-size: .65em;
+  }
+
+  .ui-panel-inner{
+    padding:0px;
+  }
+
+  a[href="#demo-links"] {
+    font-size: .80em;
+    margin-left:30%;
+    margin-top:8%;
+  }
+
+
+
+.ui-listview > .ui-li-has-icon > .ui-btn > img:first-child {
+  position: absolute;
+  left: .625em;
+  top: 1.0em;
+  max-height: 28px;
+  max-width: 28px;
+  margin-right:30px;
+}
+
+/*<!--Format Elements in Contact lists  -->*/
+.ui-listview > li h2{
+  margin: .45em .45em;
+}
+.ui-listview > li p{
+  margin: .45em .45em;
+  font-size:.90em;
+}
+  .auto-style1 {
+  color: #FF0000;
+}
+  .auto-style2 {
+text-align: center;
+}
