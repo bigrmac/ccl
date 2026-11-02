@@ -145,7 +145,7 @@ label.ui-btn {
 .ui-btn-icon-top:after,
 .ui-btn-icon-bottom:after,
 .ui-btn-icon-notext:after {
-	background-color: #54B948 /*{global-icon-color}*/;
+	background-color: #004E41 /*{global-icon-color}*/;
 	background-color: rgba(84,185,72,1) /*{global-icon-disc}*/;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -159,7 +159,7 @@ html .ui-alt-icon.ui-checkbox-off:after,
 html .ui-alt-icon.ui-radio-off:after,
 html .ui-alt-icon .ui-checkbox-off:after,
 html .ui-alt-icon .ui-radio-off:after {
-	background-color: #54B948 /*{global-icon-color}*/;
+	background-color: #004E41 /*{global-icon-color}*/;
 	background-color: 					rgba(0,0,0,.15);
 }
 /* No disc */
@@ -223,7 +223,7 @@ html body .ui-group-theme-z .ui-bar-inherit {
 	background: #004E41 /*{a-bar-background-color}*/;
 	border-color: #004E41 /*{a-bar-border}*/;
 	color: #fff /*{a-bar-color}*/;
-	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #54B948 /*{a-bar-shadow-color}*/;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #004E41 /*{a-bar-shadow-color}*/;
 	font-weight: bold;
 }
 .ui-bar-z {
