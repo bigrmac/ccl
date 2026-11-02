@@ -220,8 +220,8 @@ html .ui-alt-icon .ui-radio-off:after {
 html .ui-bar-z .ui-bar-inherit,
 html .ui-body-z .ui-bar-inherit,
 html body .ui-group-theme-z .ui-bar-inherit {
-	background: #54B948 /*{a-bar-background-color}*/;
-	border-color: #54B948 /*{a-bar-border}*/;
+	background: #004E41 /*{a-bar-background-color}*/;
+	border-color: #004E41 /*{a-bar-border}*/;
 	color: #fff /*{a-bar-color}*/;
 	text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #54B948 /*{a-bar-shadow-color}*/;
 	font-weight: bold;
