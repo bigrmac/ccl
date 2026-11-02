@@ -462,7 +462,7 @@ input[type='text'], input[type='password'] ,  input[type='search']
 	margin: 0;
 	border-left-width: 0;
 	border-right-width: 0;
-	background: #54B948;
+	background: #004E41;
 	color: #fff;
 	white-space:normal;
 	text-shadow:none;
@@ -477,15 +477,15 @@ html .ui-alt-icon.ui-checkbox-off:after,
 html .ui-alt-icon.ui-radio-off:after,
 html .ui-alt-icon .ui-checkbox-off:after,
 html .ui-alt-icon .ui-radio-off:after {
-	background-color: 					#54B948 /*{global-icon-color}*/;
-	background-color: 					#54B948;
+	background-color: 					#004E41 /*{global-icon-color}*/;
+	background-color: 					#004E41;
 }
 /* Icon shadow */
 .ui-shadow-icon.ui-btn:after,
 .ui-shadow-icon .ui-btn:after {
-	-webkit-box-shadow: 0 1px 0 			#54B948 /*{global-icon-shadow}*/;
-	-moz-box-shadow: 0 1px 0 				##54B948 /*{global-icon-shadow}*/;
-	box-shadow: 0 1px 0 					##54B948 /*{global-icon-shadow}*/;
+	-webkit-box-shadow: 0 1px 0 			#004E41 /*{global-icon-shadow}*/;
+	-moz-box-shadow: 0 1px 0 				#004E41 /*{global-icon-shadow}*/;
+	box-shadow: 0 1px 0 					#004E41 /*{global-icon-shadow}*/;
 }
 
 .ui-btn.ui-checkbox-off:after,
@@ -495,7 +495,7 @@ html .ui-alt-icon .ui-radio-off:after {
 }
 .ui-radio .ui-btn.ui-radio-on:after {
 	background-image: none;
-	background-color: #54B948;
+	background-color: #004E41;
 	width: 8px;
 	height: 8px;
 	border-width: 5px;
@@ -504,7 +504,7 @@ html .ui-alt-icon .ui-radio-off:after {
 }
 .ui-alt-icon.ui-btn.ui-radio-on:after,
 .ui-alt-icon .ui-btn.ui-radio-on:after {
-	background-color: #54B948;
+	background-color: #004E41;
 	color:#fff;
 }
 
